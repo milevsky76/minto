@@ -199,4 +199,33 @@ body {
   width: 1px !important;
   overflow: hidden;
 }
+
+@font-face {
+  font-family: 'STRyde Regular';
+  src: url("../fonts/stryde-regular.woff2") format("woff2"), url("../fonts/stryde-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro Light';
+  src: url("../fonts/sofia_pro_light.woff2") format("woff2"), url("../fonts/sofia_pro_light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #838383;
+  background-color: #FFFFFF;
+}
+
+.container {
+  width: 1020px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'STRyde Regular';
+    src: url('../fonts/stryde-regular.woff2') format('woff2'),
+        url('../fonts/stryde-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sofia Pro Light';
+    src: url('../fonts/sofia_pro_light.woff2') format('woff2'),
+        url('../fonts/sofia_pro_light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@mixin stry {
+    font-family: 'STRyde Regular';
+}
+
+@mixin sofl {
+    font-family: 'Sofia Pro Light';
+}
+
+@mixin sour {
+    font-family: 'Source Sans Pro', sans-serif;
+}
