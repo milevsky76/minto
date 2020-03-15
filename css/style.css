@@ -228,4 +228,97 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.main-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffffff;
+  border-top: 8px solid #A292B3;
+}
+
+.main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 130px;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 70px;
+  min-width: 197px;
+  font-size: 39px;
+  color: #a292b3;
+  text-transform: uppercase;
+}
+
+.logo__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 71px;
+  height: 70px;
+  margin-right: 15px;
+  background-image: url(../img/bg-logo.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.81;
+  font-family: 'STRyde Regular';
+  font-size: 30px;
+  color: #ffffff;
+  text-shadow: -1px 1px 1px #000000;
+}
+
+.site-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 602px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 5px 5px 5px;
+  font-size: 19px;
+  color: #676767;
+}
+
+.site-navigation__link:hover, .site-navigation__link:focus {
+  text-decoration: underline;
+}
+
+.site-navigation__text {
+  margin-left: 7px;
+}
 /*# sourceMappingURL=style.css.map */

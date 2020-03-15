@@ -1,0 +1,51 @@
+.main-header
+    display: flex
+    background-color: #ffffff
+    border-top: 8px solid #A292B3
+.main-navigation
+    display: flex
+    justify-content: space-between
+    align-items: center
+    min-height: 130px
+.logo
+    display: flex
+    align-items: center
+    min-height: 70px
+    min-width: 197px 
+    font-size: 39px
+    color: #a292b3
+    text-transform: uppercase      
+    &__img
+        display: flex
+        justify-content: center
+        align-items: center        
+        width: 71px
+        height: 70px
+        margin-right: 15px
+        background-image: url(../img/bg-logo.png)
+        background-repeat: no-repeat
+        background-position: 0 0
+        opacity: 0.81
+        +stry
+        font-size: 30px
+        color: #ffffff
+        text-shadow: -1px 1px 1px #000000                 
+
+.site-navigation
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    width: 602px
+    margin: 0
+    padding: 0
+    list-style: none    
+    &__link
+        display: flex
+        align-items: center
+        padding: 5px 5px 5px 5px
+        font-size: 19px        
+        color: #676767
+        &:hover, &:focus
+            text-decoration: underline
+    &__text
+        margin-left: 7px
