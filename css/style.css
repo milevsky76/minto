@@ -345,4 +345,122 @@ body {
   width: 20px;
   height: 14px;
 }
+
+.slider__wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 485px;
+  background-color: #a292b3;
+}
+
+.slider__title {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  font-family: 'STRyde Regular';
+  font-size: 117px;
+  color: #ffffff;
+  font-weight: 400;
+  text-shadow: -7px 5px 0px rgba(43, 43, 60, 0.75);
+}
+
+.slider__subtitle {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+  font-family: 'Sofia Pro Light';
+  font-size: 31px;
+  color: #FFFFFF;
+  font-weight: 400;
+  text-shadow: -2px 2px 1px #2b2b3c;
+}
+
+.slider__img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.button {
+  width: 34px;
+  height: 64px;
+  background-color: #82699D;
+  border: none;
+  cursor: pointer;
+}
+
+.button_back, .button_next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
+}
+
+.button_back:hover, .button_back:focus, .button_next:hover, .button_next:focus {
+  background-color: #ffffff;
+}
+
+.button_back:hover::before, .button_back:hover::after, .button_back:focus::before, .button_back:focus::after, .button_next:hover::before, .button_next:hover::after, .button_next:focus::before, .button_next:focus::after {
+  background-color: #a292b3;
+}
+
+.button_back::before, .button_back::after, .button_next::before, .button_next::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 7px;
+  height: 25px;
+  background-color: #ffffff;
+}
+
+.button_back::before, .button_next::before {
+  border-radius: 5px 5px 0 0;
+}
+
+.button_back::after, .button_next::after {
+  border-radius: 0 0 5px 5px;
+}
+
+.button_back {
+  left: 0;
+}
+
+.button_back::before {
+  -webkit-transform: translate(-50%, -76%) rotate(45deg);
+          transform: translate(-50%, -76%) rotate(45deg);
+}
+
+.button_back::after {
+  -webkit-transform: translate(-50%, -25%) rotate(-45deg);
+          transform: translate(-50%, -25%) rotate(-45deg);
+}
+
+.button_next {
+  right: 0;
+}
+
+.button_next::before {
+  -webkit-transform: translate(-50%, -76%) rotate(-45deg);
+          transform: translate(-50%, -76%) rotate(-45deg);
+}
+
+.button_next::after {
+  -webkit-transform: translate(-50%, -24%) rotate(45deg);
+          transform: translate(-50%, -24%) rotate(45deg);
+}
 /*# sourceMappingURL=style.css.map */

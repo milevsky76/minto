@@ -1,0 +1,72 @@
+.slider
+    &__wrap
+        position: relative
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center 
+        height: 485px               
+        background-color: #a292b3
+    &__title
+        position: relative
+        z-index: 2
+        margin: 0
+        padding: 0
+        +stry
+        font-size: 117px
+        color: #ffffff
+        font-weight: 400
+        text-shadow: -7px 5px 0px rgba(43, 43, 60, 0.75)
+    &__subtitle
+        position: relative
+        z-index: 2
+        margin: 0
+        padding: 0
+        +sofl
+        font-size: 31px
+        color: #FFFFFF
+        font-weight: 400
+        text-shadow: -2px 2px 1px rgba(43, 43, 60, 1)
+    &__img
+        position: absolute
+        top: 0
+        left: 0
+
+.button
+    width: 34px
+    height: 64px
+    background-color: #82699D
+    border: none
+    cursor: pointer
+    &_back, &_next
+        position: absolute
+        top: 50%
+        transform: translate(0, -50%)
+        &:hover, &:focus
+            background-color: #ffffff 
+            &::before, &::after
+                background-color: #a292b3
+        &::before, &::after
+            content: ''
+            position: absolute
+            top: 50%
+            left: 50%
+            width: 7px
+            height: 25px
+            background-color: #ffffff            
+        &::before
+            border-radius: 5px 5px 0 0
+        &::after
+            border-radius: 0 0 5px 5px
+    &_back
+        left: 0
+        &::before            
+            transform: translate(-50%, -76%) rotate(45deg)
+        &::after            
+            transform: translate(-50%, -25%) rotate(-45deg)
+    &_next
+        right: 0
+        &::before
+            transform: translate(-50%, -76%) rotate(-45deg)
+        &::after
+            transform: translate(-50%, -24%) rotate(45deg)
