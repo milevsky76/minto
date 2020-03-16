@@ -321,4 +321,28 @@ body {
 .site-navigation__text {
   margin-left: 7px;
 }
+
+.site-navigation__svg {
+  overflow: hidden;
+}
+
+.home {
+  width: 21px;
+  height: 20px;
+}
+
+.human {
+  width: 18px;
+  height: 19px;
+}
+
+.helm {
+  width: 20px;
+  height: 20px;
+}
+
+.envelope {
+  width: 20px;
+  height: 14px;
+}
 /*# sourceMappingURL=style.css.map */
