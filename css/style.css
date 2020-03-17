@@ -467,4 +467,26 @@ body {
   -webkit-transform: translate(-50%, -24%) rotate(45deg);
           transform: translate(-50%, -24%) rotate(45deg);
 }
+
+.quote {
+  width: 999px;
+  margin-bottom: 30px;
+}
+
+.quote__text {
+  margin: 0;
+  padding: 15px 40px;
+  font-size: 23px;
+  color: #494848;
+  font-style: italic;
+  line-height: 36px;
+  text-align: center;
+  border-top: 1px solid #BEBEBE;
+  border-bottom: 1px solid #BEBEBE;
+}
+
+.quote__text_highlighting {
+  color: #82699d;
+  font-weight: 700;
+}
 /*# sourceMappingURL=style.css.map */
