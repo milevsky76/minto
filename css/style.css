@@ -346,6 +346,10 @@ body {
   height: 14px;
 }
 
+.slider {
+  margin-bottom: 40px;
+}
+
 .slider__wrap {
   position: relative;
   display: -webkit-box;
