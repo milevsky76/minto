@@ -489,4 +489,93 @@ body {
   color: #82699d;
   font-weight: 700;
 }
+
+.news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.news__border-img {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 271px;
+  height: 271px;
+  margin-right: 40px;
+  padding: 17px;
+  border-radius: 50%;
+  -webkit-box-shadow: inset 0px 0px 0px 6px #e9e9e9, inset 0px 0px 0px 17px #dfdfdf;
+          box-shadow: inset 0px 0px 0px 6px #e9e9e9, inset 0px 0px 0px 17px #dfdfdf;
+  overflow: hidden;
+}
+
+.news__img {
+  display: block;
+  width: 271px;
+  height: 271px;
+  border-radius: 50%;
+}
+
+.news__colum-left {
+  width: 670px;
+}
+
+.news__title {
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding: 0;
+  font-size: 31px;
+  line-height: 36px;
+  color: #505051;
+}
+
+.news__text {
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+}
+
+.news__link {
+  margin: 0;
+  margin-top: 15px;
+  padding: 0;
+  text-align: right;
+}
+
+.link-news {
+  color: #838383;
+}
+
+.link-news:hover, .link-news:focus {
+  color: #82699d;
+}
+
+.link-news:hover .link-news__span, .link-news:focus .link-news__span {
+  text-decoration: underline;
+}
+
+.link-news:hover path, .link-news:focus path {
+  fill: #82699d;
+}
+
+.link-news__span {
+  margin-right: 5px;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.link-news__svg {
+  overflow: hidden;
+}
+
+.link-news__svg path {
+  fill: #838383;
+}
+
+.arrow {
+  width: 11px;
+  height: 7px;
+}
 /*# sourceMappingURL=style.css.map */
