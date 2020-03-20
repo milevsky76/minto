@@ -661,4 +661,58 @@ body {
   width: 171px;
   height: 41px;
 }
+
+.main-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #E8E8E8;
+  border-bottom: 8px solid #82699D;
+}
+
+.main-footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 67px;
+}
+
+.main-footer__copyright {
+  margin: 0;
+  padding: 0;
+  width: 316px;
+  font-family: 'Sofia Pro Light';
+  font-size: 15px;
+  line-height: 36px;
+  color: #454242;
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 0;
+  padding: 0;
+  width: 316px;
+  list-style: none;
+}
+
+.social__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.social__svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+}
 /*# sourceMappingURL=style.css.map */
